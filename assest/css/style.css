@@ -212,6 +212,7 @@ footer{
     flex-direction: column;
  }
  .feature{
+    padding: 50px 0px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -234,24 +235,42 @@ footer{
     width:auto;
  }
  
-.feature div img{
-    width:250px;
-    height:200px;
-    align-items: center;
-    padding: 0px;
+.feature div img ,.feature div p{
+   margin-left: -50%;
     
 }
 .feature div h2
 {
-    font-size: 25px;
-    margin-bottom: 2px;
+    font-size: 30px;
+    margin-bottom:0px;
+    padding: 5px 0px;
     
 }
-.feature div p
+.feature div
 {
-    margin-top:0px;
-    font-size: 15px;
-    
+    width:35%;
+    height: 450px;
+}
+}
+@media screen and(max-width:768px)
+{
+.banner
+{
+    height:auto;
+    padding:10px;
+    flex-direction: column;
+}
+.banner h1
+{
+  font-size: 30px;  
+}
+header h2
+{
+    font-size: 14px;
+}
+header h2 span{
+text-wrap:nowrap;
+font-size:12px;
 }
 }
 /* meadia query section end */
