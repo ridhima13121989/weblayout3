@@ -182,6 +182,8 @@ text-align: justify;
 
 
 /* service section end */
+
+/* footer section start */
 footer{
     width:100%;
     background-color: #022d7c;
@@ -192,5 +194,64 @@ footer{
     font-weight: 300;
     word-spacing:5px;
 }
-/* footer section start */
 /* footer section end */
+/* meadia query section start */
+@media screen and (max-width:992px)
+{
+ header
+ {
+       padding:10px;
+ }
+ header h2
+ {
+    font-size: 20px;
+ }
+ .banner
+ {
+    padding: 0px;
+    flex-direction: column;
+ }
+ .feature{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
+ .about
+ {
+    padding:20px;
+ }
+ .service{
+    padding:10px;
+ }
+ .service .upper,.service .lower
+ {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+ }
+ .service .image,.service .content
+ {
+    width:auto;
+ }
+ 
+.feature div img{
+    width:250px;
+    height:200px;
+    align-items: center;
+    padding: 0px;
+    
+}
+.feature div h2
+{
+    font-size: 25px;
+    margin-bottom: 2px;
+    
+}
+.feature div p
+{
+    margin-top:0px;
+    font-size: 15px;
+    
+}
+}
+/* meadia query section end */
